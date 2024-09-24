@@ -1,7 +1,10 @@
+import os
+
+os.system("pip install tkinter")
+
 import tkinter as tk
-from tkinter import ttk
 from tkinter import filedialog as fd
-import os, shutil
+import shutil
 import re
 
 
@@ -12,8 +15,6 @@ root.title("Godot source builder")
 
 _source_directory = "Empty"
 _custom_modules = []
-
-_desktop_shortcut = False
 
 
 def DeadSpace(size:int):
@@ -69,6 +70,7 @@ def remove_custom_module():
 
 
 def build():
+    os.system("pip install scons")
     regex_pattern1 = r"void initialize_([\w-]+)_module\(ModuleInitializationLevel p_level\);"
     regex_pattern2 = r"void uninitialize_([\w-]+)_module\(ModuleInitializationLevel p_level\);"
     for module in _custom_modules:

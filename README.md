@@ -31,7 +31,9 @@ A small program used to simplify the process of building Godot from source.
 ## Version History
 
 * 1.0
-  * has support for custom modules and the base source code.
+ * Has support for custom modules and the base source code.
+* 1.5
+ * Auto installs `tkinter` and `scons`.
 
 ## License
 

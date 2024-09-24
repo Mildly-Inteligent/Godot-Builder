@@ -18,14 +18,15 @@ A small program used to simplify the process of building Godot from source.
 ### Dependencies
 
 * Windows
+* Python 3
 
 ### Installing
 
-* Install and extract the .zip file.
+* Install the python file.
 
 ### Executing program
 
-* Find the file called `godot builder.exe` and run it.
+* Run the python file.
 
 ## Version History
 

@@ -2,6 +2,8 @@
 
 A small program used to simplify the process of building Godot from source.
 
+![Screenshot of program](Screenshot.png)
+
 ## How to use
 
 1. Download the program.

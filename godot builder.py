@@ -1,10 +1,7 @@
-import os
-
-os.system("pip install tkinter")
-
 import tkinter as tk
 from tkinter import filedialog as fd
 import shutil
+import os
 import re
 
 
